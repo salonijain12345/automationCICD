@@ -16,6 +16,7 @@ import org.openqa.selenium.WebElement;
 public class submitordertest extends basetest {
 	
 	//jenkins java -jar jenkins.war --enable-future-java --httpPort=xxxx 
+	//new comment
 
 	@Test(dataProvider ="getData", groups="purchase",retryAnalyzer =saloni.testcomponents.Retry.class)
 	public void submitOrder(HashMap<String,String> input) throws IOException, InterruptedException {
