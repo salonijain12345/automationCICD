@@ -20,7 +20,7 @@ public class santdalonetest {
 
 	public static void main(String[] args) throws InterruptedException {
 		// TODO Auto-generated method stub
-		//new comment hi
+		
         String productname ="ZARA COAT 3";
 		ChromeOptions chromeOption =new ChromeOptions();
 		chromeOption.addArguments("--remote-allow-origins=*");
